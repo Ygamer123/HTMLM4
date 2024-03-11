@@ -1,0 +1,142 @@
+body {
+  background-color: rgb(245, 245, 220);
+  color: rgb(0, 0, 0);
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1% auto;
+}
+
+#header img {
+  border-style: outset;
+  border-color: rgb(222, 184, 135);
+  width: 200px;
+  height: 200px;
+}
+
+h2 {
+  color: rgb(0, 0, 0);
+}
+
+#LA {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#link {
+  text-align: left;
+  margin-right: 2%;
+  margin: 0 auto;
+}
+
+#link a {
+  color: rgb(0, 0, 0);
+}
+
+.audio-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-color: rgb(222, 184, 135);
+  border-style: inset;
+  margin: 0 auto;
+}
+
+.audio-container p {
+  margin-bottom: 1%;
+  color: rgb(0, 0, 0);
+}
+
+#photos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#photos div {
+  flex: 1;
+  text-align: center;
+  margin: 0% auto;
+  border-style: outset;
+  border-color:rgb(222, 184, 135);
+  color: rgb(0, 0, 0);
+}
+
+#photos div img {
+  width: 400px;
+  height: 250px;
+}
+
+nav {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  margin: 1% auto;
+  color: rgba(0, 0, 0, 0.836);
+  border-style: groove;
+  border-color: rgb(222, 184, 135);
+}
+
+table {
+  border-collapse: collapse;
+  margin: 1% auto;
+  color: rgb(0, 0, 0);
+}
+
+#row1 {
+  border-style: solid;
+  border-color: rgb(165, 104, 48);
+}
+
+tr {
+  border-style: dashed;
+  border-color: rgb(165, 104, 48);
+}
+
+td {
+  padding: 0.2%;
+}
+
+tr,
+td {
+  width: 47%;
+}
+
+.video-container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+.video {
+  margin: 1%;
+}
+
+footer {
+  background-color: rgba(255, 255, 157, 0.726);
+}
+
+#copy {
+  text-align: center;
+}
+
+footer img {
+  width: 2%;
+  height: 2%;
+}
+
+#map {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  height: 50%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 1% auto;
+}

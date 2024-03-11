@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta name="author" content=" Yousri Jellab">
+  <meta name="keywords" content="HTML">
+  <meta name="description" content="Yousri's Web">
+  <link rel="icon" href="imatges/iconweb.png">
+  <link href="indexx.css" rel="stylesheet" type="text/css">
+  <meta name="viewport" content="initial-scale=1, width=device-width">
+  <link rel="stylesheet" href="Style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Yousri Jellab</title>
+</head>
+
+<body>
+  <header>
+    <div class="mobile">
+
+      <div class="menu">
+        <a href="">Home</a>
+        <div id="mylinks">
+          <a href="#projectes">Projects</a>
+          <a href="#treballs">Works</a>
+          <a href="#yo">About Me</a>
+          <a href="#contacto">Contact</a>
+        </div>
+
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </div>
+
+    <div class="imatge-fons">
+      <div class="text-fons">
+        <h1>Yousri Jellab El Amrani</h1>
+        <h3>GSDAM & BCT</h3>
+        <a href="CV.pdf" download="FALTA">
+          <button type="button">CV</button>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <section>
+    <div class="section-container" id="projectes">
+      <div class="section-title">
+        <h1>Projects</h1>
+    </div>
+    <div class="section-content">
+    </div>
+  </div>
+
+  <div class="section-container" id="treballs">
+    <div class="section-title">
+      <h1>Works</h1>
+    </div>
+    <div class="section-content">
+      <h3>You can see my pages.</h3>
+      <div class="imatges">
+        <div class="IMG-link">
+          <a href="https://yjellab.netlify.app/exercicis/ex7" target="_blank">
+            <img src="IMGIX/WEB1.jpeg" alt="Web 1">
+          </a>
+        </div>
+        <div class="IMG-link">
+          <a href="https://yjellab.netlify.app/PT2/Music" target="_blank">
+            <img src="" alt="Web 2">
+          </a>
+        </div>
+        <div class="IMG-link">
+          <a href="https://yjellab.netlify.app/PT3/T3" target="_blank">
+            <img src="" alt="Web 3">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-container" id="yo">
+    <div class="section-title">
+      <h1>About Me</h1>
+    </div>
+    <div class="section-content">
+
+    </div>
+  </div>
+
+
+  <div class="section-container" id="Contacto">
+    <div class="section-title">
+      <h1>Contact</h1>
+    </div>
+    <div class="section-content">
+      <div id="gmail">
+        <h3>Send me a message:</h3>
+        <a href="mailto:yousrijellab11@gmail.com">
+          <img src="IMGIX/gml.avif" alt="My Gmail">
+        </a>
+      </div>
+    </div>
+  </section>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-content">
+          <p>Email: yousrijellab11@gmail.com</p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("mylinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
+  </section>
+
+</body>
+
+</html>
