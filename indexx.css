@@ -1,0 +1,154 @@
+body {
+  background-color: #f0fff0;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+header {
+  background: #556b2f;
+  color: #f0fff0;
+  padding: 10px 0;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.menu a {
+  color: #f0fff0;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.menu a:hover {
+  background-color: #f0fff0;
+  color: #556b2f;
+}
+
+.icon {
+  display: none;
+}
+
+#hero {
+  background-image: url("IMGIX/imgfondoinc.jpg");
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content {
+  background-color: rgba(85, 107, 47, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  color: #f0fff0;
+}
+
+.hero-content h1 {
+  font-size: 40px;
+}
+
+.hero-content button {
+  background-color: #f0fff0;
+  color: rgba(85, 107, 47, 0.8);
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.hero-content button:hover {
+  background-color: rgba(85, 107, 47, 0.8);
+  color: #f0fff0;
+}
+
+main {
+  padding: 20px;
+}
+
+.section-container {
+  background-color: #ffffff;
+  border: 2px solid #556b2f;
+  border-radius: 10px;
+  text-align: center;
+  margin: 20px 0;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 30px;
+  color: #556b2f;
+  margin-bottom: 10px;
+}
+
+.image-gallery {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.image-gallery a {
+  margin: 10px;
+  border: 2px solid #556b2f;
+  border-radius: 8px;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.image-gallery img {
+  width: 90%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.image-gallery a:hover img {
+  transform: scale(1.1);
+}
+
+.contact-content {
+  text-align: center;
+}
+
+.contact-content img {
+  width: 75px;
+  height: 50px;
+  transition: transform 0.3s ease;
+}
+
+.contact-content img:hover {
+  transform: scale(1.2);
+}
+
+footer {
+  background-color: #556b2f;
+  color: #f0fff0;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.footer-container {
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .menu a {
+      padding: 10px;
+  }
+  .icon {
+      display: block;
+  }
+  .menu a:not(:first-child) {
+      display: none;
+  }
+  .menu.responsive a {
+      display: block;
+      text-align: left;
+  }
+}
